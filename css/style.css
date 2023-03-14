@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.whiteSpace {
+    padding: 0 15rem;
+}
+
+/*------------------------------------------- HEADER -----------------------------------------------*/
+
+header {
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    width: 40%;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+#searchBar {
+    background-color: lightgray;
+    border: none;
+    border-radius: 5% / 15%;
+    height: 2rem;
+    padding: .5rem;
+}
+
+/*------------------------------------------ ABOUT ME ----------------------------------------------*/
+
