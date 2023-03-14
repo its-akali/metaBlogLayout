@@ -73,3 +73,58 @@ nav {
     text-align: center;
     margin-bottom: 1rem;
 }
+
+/*----------------------------------------- LATEST POST --------------------------------------------*/
+
+.latestPost{
+    margin-bottom: 3rem;
+}
+
+.latestPost>h2 {
+    margin: 2rem 0;
+}
+
+.postContainers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.post {
+    border: 1px solid gray;
+    border-radius: 5% / 5%;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.landscapeImg {
+    height: 8rem;
+    width: 100%;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 5% / 10%;
+}
+
+.highlight {
+    background-color: lightblue;
+    color: darkblue;
+    padding: .5rem;
+    width: fit-content;
+    border-radius: 5% / 10%;
+}
+
+.posterDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posterImg {
+    height: 2rem;
+    width: 2rem;
+    background-color: pink;
+    border-radius: 50%;
+}
